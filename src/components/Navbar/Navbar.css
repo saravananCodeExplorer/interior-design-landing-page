@@ -1,3 +1,257 @@
-div{
-    color: red;
+/* ========================= */
+
+.navbar{
+    
+position:absolute;
+
+top:0;
+
+left:0;
+
+width:100%;
+
+padding:25px 35px;
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:flex-start;
+
+z-index:1000;
+
+box-sizing:border-box;
+
+}
+
+/* LEFT */
+
+.navbar-left{
+
+display:flex;
+
+gap:18px;
+
+margin-top:10px;
+
+}
+
+.navbar-left a{
+
+color:#fff;
+
+font-size:15px;
+
+transition:.3s;
+
+}
+
+.navbar-left a:hover{
+
+opacity:.6;
+
+}
+
+/* CENTER */
+
+.navbar-center{
+
+position:absolute;
+
+left:50%;
+
+transform:translateX(-50%);
+
+text-align:center;
+
+color:white;
+
+}
+
+.navbar-center h2{
+
+margin:0;
+
+font-size:22px;
+
+font-weight:500;
+
+letter-spacing:5px;
+
+font-family:Arial, sans-serif;
+
+}
+
+.navbar-center p{
+
+margin-top:5px;
+
+font-size:18px;
+
+font-style:italic;
+
+font-family:Georgia, serif;
+
+font-weight:300;
+
+opacity:.9;
+
+}
+
+/* RIGHT */
+
+.navbar-right{
+
+display:flex;
+
+align-items:center;
+
+gap:25px;
+
+color:white;
+
+margin-left:auto;
+
+}
+
+.navbar-right span{
+
+font-size:12px;
+
+letter-spacing:2px;
+
+font-family:Arial;
+
+}
+
+/* Hamburger */
+
+.menu-btn{
+
+background:none;
+
+border:none;
+
+cursor:pointer;
+
+display:flex;
+
+flex-direction:column;
+
+gap:7px;
+
+padding:0;
+
+}
+
+.menu-btn span{
+
+width:32px;
+
+height:2px;
+
+background:white;
+
+display:block;
+
+}
+
+/* Tablet */
+
+@media(max-width:768px){
+
+.navbar{
+
+padding:20px;
+
+}
+
+.navbar-left{
+
+gap:12px;
+
+}
+
+.navbar-left a{
+
+font-size:13px;
+
+}
+
+.navbar-center h2{
+
+font-size:18px;
+
+letter-spacing:3px;
+
+}
+
+.navbar-center p{
+
+font-size:14px;
+
+}
+
+.navbar-right{
+
+gap:15px;
+
+}
+
+.navbar-right span{
+
+display:none;
+
+}
+
+.menu-btn span{
+
+width:26px;
+
+}
+
+}
+
+/* Mobile */
+
+@media(max-width:480px){
+
+.navbar{
+
+padding:18px;
+
+}
+
+.navbar-left{
+
+gap:10px;
+
+}
+
+.navbar-left a{
+
+font-size:12px;
+
+}
+
+.navbar-center h2{
+
+font-size:15px;
+
+letter-spacing:2px;
+
+}
+
+.navbar-center p{
+
+font-size:12px;
+
+}
+
+.menu-btn span{
+
+width:22px;
+
+}
+
 }
