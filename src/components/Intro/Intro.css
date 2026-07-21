@@ -1,0 +1,238 @@
+.intro{
+
+    background:#f8f3ee;
+
+    padding:110px 0;
+    
+
+}
+
+.intro-container{
+ 
+    width:90%;
+
+    max-width:1250px;
+
+    margin:auto;
+
+    text-align:center;
+
+}
+
+/* Logo */
+
+.intro-logo{
+
+    margin-bottom:35px;
+
+}
+
+.logo-circle{
+
+    width:90px;
+
+    height:120px;
+
+    border:2px solid #8a7565;
+
+    border-radius:50px;
+
+    margin:auto;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:42px;
+
+    color:#54433a;
+
+    font-family:"Cormorant Garamond", serif;
+
+}
+
+/* Heading */
+
+.intro h2{
+
+    font-size:60px;
+
+    font-family:"Cormorant Garamond", serif;
+
+    font-weight:400;
+
+    color:#5b3a2e;
+
+    line-height:1.15;
+
+    margin-bottom:30px;
+
+}
+
+.intro-text{
+
+    max-width:650px;
+
+    margin:auto;
+
+    color:#555;
+
+    font-size:15px;
+
+    line-height:1.8;
+
+}
+
+/* Button */
+
+.intro-btn{
+
+    display:inline-block;
+
+    margin-top:35px;
+
+    color:#4b3a34;
+
+    text-decoration:none;
+
+    font-size:14px;
+
+    letter-spacing:3px;
+
+    border-bottom:1px solid #4b3a34;
+
+    padding-bottom:8px;
+
+}
+
+/* Services */
+
+.service-grid{
+   
+
+    margin-top:150px;
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:45px;
+
+}
+
+.service-card{
+
+    text-align:center;
+
+    transition:.4s;
+
+}
+
+.service-card img{
+
+    width:100%;
+
+    height:470px;
+
+    object-fit:cover;
+
+
+}
+
+.service-card:hover{
+
+    transform:translateY(30px);
+   
+
+}
+
+.service-card span{
+
+    display:block;
+
+    margin-top:25px;
+
+    color:#777;
+
+    letter-spacing:3px;
+
+    font-size:13px;
+
+}
+
+.service-card h3{
+
+    margin-top:12px;
+
+    font-size:26px;
+
+    letter-spacing:4px;
+
+    color:#3d302b;
+
+    font-weight:500;
+
+
+}
+
+/* Tablet */
+
+@media(max-width:992px){
+
+.service-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+.intro h2{
+
+font-size:46px;
+
+}
+
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+.intro{
+
+padding:70px 20px;
+
+}
+
+.intro h2{
+
+font-size:36px;
+
+}
+
+.service-grid{
+
+grid-template-columns:1fr;
+
+gap:40px;
+
+}
+
+.service-card img{
+
+height:420px;
+
+}
+
+.logo-circle{
+
+width:70px;
+
+height:95px;
+
+font-size:34px;
+
+}
+
+}
