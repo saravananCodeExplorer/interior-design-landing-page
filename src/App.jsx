@@ -5,6 +5,7 @@ import About from './components/About/About'
 import Testimonial from './components/Testimonial/Testimonial'
 import Project from './components/Project/Project'
 import Blog from './components/Blog/Blog'
+import Subscribe from './components/Subscribe/Subscribe'
 
 const App = () => {
   return (
@@ -15,7 +16,8 @@ const App = () => {
       <About />
       <Testimonial />
       <Project />
-      <Blog/>
+      <Blog />
+      <Subscribe/>
       
     </>  
   )

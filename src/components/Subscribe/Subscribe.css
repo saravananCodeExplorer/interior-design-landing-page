@@ -1,0 +1,252 @@
+.subscribe{
+
+    position:relative;
+
+    background:#f6efe8;
+
+    padding:90px 0;
+
+    overflow:hidden;
+
+}
+
+/* Background HOME */
+
+.subscribe-bg-text{
+
+    position:absolute;
+
+    left:-40px;
+
+    top:0px;
+
+    font-size:190px;
+
+    font-family:"Montserrat",sans-serif;
+
+    font-weight:700;
+
+    letter-spacing:12px;
+
+    color:#efe4dc;
+
+    writing-mode:vertical-rl;
+
+    transform:rotate(180deg);
+
+    user-select:none;
+
+    pointer-events:none;
+
+}
+
+.subscribe-container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 380px 500px;
+
+    justify-content: center;   /* Centers the two columns */
+    align-items: center;
+
+    gap: 60px;
+
+    position: relative;
+    z-index: 2;
+}
+
+/* Image */
+
+.subscribe-image{
+
+    overflow:hidden;
+
+}
+
+.subscribe-image img{
+
+    width:100%;
+
+    display:block;
+
+    object-fit:cover;
+
+}
+
+/* Content */
+
+.subscribe-content span{
+
+    display:block;
+
+    margin-bottom:15px;
+
+    font-size:12px;
+
+    letter-spacing:3px;
+
+    color:#6c5b52;
+
+    font-family:"Montserrat",sans-serif;
+
+}
+
+.subscribe-content h2{
+
+    font-family:"Montserrat",sans-serif;
+
+    font-size:58px;
+
+    line-height:1.05;
+
+    font-weight:500;
+
+    letter-spacing:3px;
+
+    color:#43342d;
+
+    margin-bottom:25px;
+
+}
+
+.subscribe-content p{
+
+    max-width:470px;
+
+    font-family:"Poppins",sans-serif;
+
+    font-size:16px;
+
+    line-height:1.8;
+
+    color:#62544d;
+
+    margin-bottom:35px;
+
+}
+
+/* Form */
+
+.subscribe-form{
+
+    display:flex;
+
+}
+
+.subscribe-form input{
+
+    width:170px;
+
+    height:54px;
+
+    border:none;
+
+    padding:0 18px;
+
+    outline:none;
+
+    font-size:15px;
+
+    background:#fff;
+
+}
+
+.subscribe-form button{
+
+    width:170px;
+
+    border:none;
+
+    background:#5b5142;
+
+    color:white;
+
+    cursor:pointer;
+
+    letter-spacing:2px;
+
+    font-size:13px;
+
+    transition:.3s;
+
+}
+
+.subscribe-form button:hover{
+
+    background:#40352e;
+
+}
+
+/* Tablet */
+
+@media(max-width:992px){
+
+.subscribe-container{
+
+grid-template-columns:1fr;
+
+text-align:center;
+
+}
+
+.subscribe-content p{
+
+margin:auto auto 35px;
+
+}
+
+.subscribe-form{
+
+justify-content:center;
+
+}
+
+.subscribe-bg-text{
+
+display:none;
+
+}
+
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+.subscribe{
+
+padding:70px 20px;
+
+}
+
+.subscribe-content h2{
+
+font-size:40px;
+
+}
+
+.subscribe-form{
+
+flex-direction:column;
+
+gap:15px;
+
+}
+
+.subscribe-form input{
+
+width:100%;
+
+}
+
+.subscribe-form button{
+
+width:100%;
+
+height:54px;
+
+}
+
+}
