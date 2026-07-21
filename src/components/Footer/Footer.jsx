@@ -7,12 +7,12 @@ import {
   FaPinterestP,
 } from "react-icons/fa";
 
-import footer1 from "/public/images/footer.jpg";
-import footer2 from "/public/images/new_build.jpg";
-import footer3 from "/public/images/renovations.jpg";
-import footer4 from "/public/images/blog1.jpg";
-import footer5 from "/public/images/bed_room_3.jpg";
-import footer6 from "/public/images/hero_bg.jpg";
+import footer1 from "/images/footer.jpg";
+import footer2 from "/images/new_build.jpg";
+import footer3 from "/images/renovations.jpg";
+import footer4 from "/images/blog1.jpg";
+import footer5 from "/images/bed_room_3.jpg";
+import footer6 from "/images/hero_bg.jpg";
 
 const gallery = [
   footer1,
