@@ -5,19 +5,19 @@ const Blog = () => {
 const blogs = [
   {
     id: 1,
-    image:"/public/images/blog1.jpg",
+    image:"./images/blog1.jpg",
     category: "DESIGN TIPS",
     title: "How to Use Green in your Space",
   },
   {
     id: 2,
-    image:"/public/images/blog2.jpg",
+    image:"./images/blog2.jpg",
     category: "ORGANIZATION",
     title: "10 Amazing Hacks for Keeping your Closet Tidy",
   },
   {
     id: 3,
-    image:"/public/images/blog3.jpg",
+    image:"./images/blog3.jpg",
     category: "DESIGN",
     title: "Should You Add a Double Island to your Kitchen?",
   },

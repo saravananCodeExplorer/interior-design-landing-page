@@ -6,22 +6,22 @@ const projects = [
     id: 1,
     title: "MAIN STREET HOUSE",
     subtitle: "view project",
-    left: "/public/images/project-left1.jpg",
-    right: "/public/images/bed_room_1.jpg",
+    left: "./images/project-left1.jpg",
+    right: "./images/bed_room_1.jpg",
   },
   {
     id: 2,
     title: "MODERN VILLA",
     subtitle: "view project",
-    left: "/public/images/project-left2.jpg",
-    right: "/public/images/bed_room_2.jpg",
+    left: "./images/project-left2.jpg",
+    right: "./images/bed_room_2.jpg",
   },
   {
     id: 3,
     title: "LUXURY HOME",
     subtitle: "view project",
-    left: "/public/images/project-left3.jpg",
-    right:"/public/images/bed_room_3.jpg",
+    left: "./images/project-left3.jpg",
+    right:"./images/bed_room_3.jpg",
   },
 ];
 
