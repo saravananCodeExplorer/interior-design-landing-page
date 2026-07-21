@@ -37,7 +37,7 @@ const Project = () => {
   };
 
   return (
-    <section className="project">
+    <section id="project" className="project">
 
       <div className="project-left">
         <img src={projects[current].left} alt="" />

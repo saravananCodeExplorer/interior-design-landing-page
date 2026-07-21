@@ -20,7 +20,7 @@ const services = [
 
 const Intro = () => {
   return (
-    <section className="intro">
+    <section id="intro" className="intro">
 
       <div className="intro-container">
 

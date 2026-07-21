@@ -3,7 +3,7 @@ import Navbar from "../Navbar/Navbar";
 
 const Hero = () => {
   return (
-    <section className="hero">
+    <section id="services" className="hero">
           <Navbar />
           
       <div className="hero-overlay"></div>

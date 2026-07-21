@@ -3,7 +3,7 @@ import subscribeImg from "/src/assets/images/subscribe.jpg";
 
 const Subscribe = () => {
   return (
-    <section className="subscribe">
+    <section id="subscribe" className="subscribe">
 
       <div className="subscribe-bg-text">
         FREE GUIDE

@@ -23,7 +23,7 @@ const blogs = [
   },
 ];
   return (
-    <section className="blog">
+    <section id='blog' className="blog">
 
       <div className="blog-container">
 
