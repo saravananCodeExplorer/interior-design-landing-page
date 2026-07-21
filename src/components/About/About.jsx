@@ -34,12 +34,14 @@ const About = () => {
           JEAN
         </h2>
 
-        <p>
-          Mustache leggings mumblecore, food truck selfies bitters ramps
-          fashion axe waistcoat four dollar toast. Heirloom sus viral freegan
-          pickled brunch actually flannel. Venmo freegan taiyaki pug cliche
-          milkshk, hella slow-carb meh.
-        </p>
+       <p>
+           Mustache leggings mumblecore, food truck selfies bitters ramps fashion
+    axe waistcoat four dollar toast. Heirloom sus viral freegan pickled
+    brunch actually flannel. Venmo freegan taiyaki pug cliche milkshk,
+    hella slow-carb meh. Iceland chia drinking vinegar poutine kickstarter,
+    taxidermy DSA. Poutine slow-carb banjo skateboard selfies ethical
+    retro hoodie occupy salvia bodega boys.
+       </p>
 
         <a href="/">READ MY STORY</a>
 
