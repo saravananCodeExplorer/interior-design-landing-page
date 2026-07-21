@@ -1,0 +1,428 @@
+/* ===========================
+   FOOTER
+=========================== */
+
+.footer{
+    background:#5b5444;
+    color:#fff;
+    position:relative;
+    overflow:hidden;
+}
+
+/* ===========================
+   TOP GALLERY
+=========================== */
+
+.footer-gallery{
+
+    width:92%;
+
+    margin:55px auto 0;
+
+    display:grid;
+
+    grid-template-columns:repeat(6,1fr);
+
+}
+
+.footer-gallery-item{
+
+    overflow:hidden;
+
+}
+
+.footer-gallery-item img{
+
+    width:100%;
+
+    height:140px;
+
+    object-fit:cover;
+
+    display:block;
+
+    transition:.5s;
+
+}
+
+.footer-gallery-item:hover img{
+
+    transform:scale(1.08);
+
+}
+
+/* ===========================
+   INSTAGRAM
+=========================== */
+
+.footer-instagram{
+
+    width:92%;
+
+    margin:15px auto 0;
+
+    text-align:right;
+
+    font-size:12px;
+
+    letter-spacing:2px;
+
+    font-family:"Montserrat",sans-serif;
+
+}
+
+/* ===========================
+   CONTENT
+=========================== */
+
+.footer-content{
+
+    width:92%;
+
+    margin:60px auto;
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr 1fr;
+
+    align-items:center;
+
+}
+
+/* ===========================
+   LEFT
+=========================== */
+
+.footer-left{
+
+    justify-self:start;
+
+}
+
+.footer-menu-title{
+
+    display:block;
+
+    margin-bottom:20px;
+
+    font-style:italic;
+
+    font-family:"Cormorant Garamond",serif;
+
+    font-size:18px;
+
+}
+
+.footer-left ul{
+
+    list-style:none;
+
+    padding:0;
+
+    margin:0;
+
+}
+
+.footer-left li{
+
+    margin:14px 0;
+
+}
+
+.footer-left a{
+
+    color:#fff;
+
+    text-decoration:none;
+
+    font-size:13px;
+
+    letter-spacing:2px;
+
+    transition:.3s;
+
+}
+
+.footer-left a:hover{
+
+    opacity:.7;
+
+}
+
+/* ===========================
+   CENTER
+=========================== */
+
+.footer-center{
+
+    text-align:center;
+
+}
+
+.footer-logo{
+
+    width:90px;
+
+    height:120px;
+
+    border:2px solid rgba(255,255,255,.7);
+
+    border-radius:50px;
+
+    margin:auto;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.footer-logo span{
+
+    font-size:42px;
+
+    font-family:"Cormorant Garamond",serif;
+
+}
+
+.footer-center h2{
+
+    margin-top:28px;
+
+    font-size:46px;
+
+    letter-spacing:4px;
+
+    font-family:"Montserrat",sans-serif;
+
+    font-weight:500;
+
+}
+
+.footer-center p{
+
+    margin-top:10px;
+
+    font-style:italic;
+
+    font-size:18px;
+
+    font-family:"Cormorant Garamond",serif;
+
+}
+
+/* ===========================
+   RIGHT
+=========================== */
+
+.footer-right{
+
+    justify-self:end;
+
+    text-align:right;
+
+}
+
+.footer-social{
+
+    display:flex;
+
+    justify-content:flex-end;
+
+    gap:22px;
+
+    margin-bottom:35px;
+
+}
+
+.footer-social a{
+
+    color:#fff;
+
+    font-size:18px;
+
+    transition:.3s;
+
+}
+
+.footer-social a:hover{
+
+    transform:translateY(-4px);
+
+}
+
+.footer-right button{
+
+    width:220px;
+
+    height:60px;
+
+    background:transparent;
+
+    border:1px solid rgba(255,255,255,.6);
+
+    color:#fff;
+
+    cursor:pointer;
+
+    letter-spacing:2px;
+
+    font-size:14px;
+
+    transition:.3s;
+
+}
+
+.footer-right button:hover{
+
+    background:#fff;
+
+    color:#5b5444;
+
+}
+
+/* ===========================
+   BOTTOM
+=========================== */
+
+.footer-bottom{
+
+    border-top:1px solid rgba(255,255,255,.35);
+
+    width:100%;
+
+    padding:18px 30px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+.footer-bottom p{
+
+    font-size:11px;
+
+    letter-spacing:1px;
+
+}
+
+.footer-line{
+
+    width:2px;
+
+    height:24px;
+
+    background:white;
+
+}
+
+/* ===========================
+   TABLET
+=========================== */
+
+@media(max-width:992px){
+
+.footer-gallery{
+
+grid-template-columns:repeat(3,1fr);
+
+}
+
+.footer-content{
+
+grid-template-columns:1fr;
+
+gap:60px;
+
+text-align:center;
+
+}
+
+.footer-left,
+
+.footer-center,
+
+.footer-right{
+
+justify-self:center;
+
+text-align:center;
+
+}
+
+.footer-social{
+
+justify-content:center;
+
+}
+
+}
+
+/* ===========================
+   MOBILE
+=========================== */
+
+@media(max-width:768px){
+
+.footer-gallery{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+.footer-gallery-item img{
+
+height:120px;
+
+}
+
+.footer-center h2{
+
+font-size:30px;
+
+}
+
+.footer-logo{
+
+width:70px;
+
+height:95px;
+
+}
+
+.footer-logo span{
+
+font-size:30px;
+
+}
+
+.footer-right button{
+
+width:180px;
+
+height:52px;
+
+}
+
+.footer-bottom{
+
+flex-direction:column;
+
+gap:15px;
+
+text-align:center;
+
+}
+
+.footer-line{
+
+display:none;
+
+}
+
+}

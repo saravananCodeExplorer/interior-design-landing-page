@@ -6,6 +6,7 @@ import Testimonial from './components/Testimonial/Testimonial'
 import Project from './components/Project/Project'
 import Blog from './components/Blog/Blog'
 import Subscribe from './components/Subscribe/Subscribe'
+import Footer from './components/Footer/Footer'
 
 const App = () => {
   return (
@@ -17,7 +18,8 @@ const App = () => {
       <Testimonial />
       <Project />
       <Blog />
-      <Subscribe/>
+      <Subscribe />
+      <Footer/> 
       
     </>  
   )
