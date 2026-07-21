@@ -19,7 +19,7 @@ const App = () => {
       <Project />
       <Blog />
       <Subscribe />
-      <Footer/> 
+      <Footer/>  
       
     </>  
   )

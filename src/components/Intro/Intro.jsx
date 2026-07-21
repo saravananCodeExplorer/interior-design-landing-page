@@ -4,17 +4,17 @@ const services = [
   {
     id: "01",
     title: "NEW BUILDS",
-    image: "/src/assets/images/new_build.jpg",
+    image: "/public/images/new_build.jpg",
   },
   {
     id: "02",
     title: "RENOVATIONS",
-    image: "/src/assets/images/renovations.jpg",
+    image: "/public/images/renovations.jpg",
   },
   {
     id: "03",
     title: "DESIGN CONSULTS",
-    image: "/src/assets/images/design_consults.jpg",
+    image: "/public/images/design_consults.jpg",
   },
 ];
 

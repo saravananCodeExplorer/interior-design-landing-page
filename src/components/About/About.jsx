@@ -6,7 +6,7 @@ const About = () => {
       <div className="about-left">
 
         <img
-          src="/src/assets/images/about_bg.jpg"
+          src="/public/images/about_bg.jpg"
           alt=""
           className="about-bg"
         />
@@ -14,7 +14,7 @@ const About = () => {
         <div className="about-image">
 
           <img
-            src="/src/assets/images/founder.jpg"
+            src="/public/images/founder.jpg"
             alt="Founder"
           />
 

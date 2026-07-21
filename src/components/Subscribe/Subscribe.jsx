@@ -1,5 +1,5 @@
 import "./Subscribe.css";
-import subscribeImg from "/src/assets/images/subscribe.jpg";
+import subscribeImg from "/public/images/subscribe.jpg";
 
 const Subscribe = () => {
   return (
