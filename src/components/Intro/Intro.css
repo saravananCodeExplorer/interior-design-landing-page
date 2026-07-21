@@ -128,6 +128,8 @@
 
     transition:.4s;
 
+    cursor: pointer;
+
 }
 
 .service-card img{
